@@ -14,6 +14,7 @@
 		63A052021D500A3100856A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A052001D500A3100856A8A /* LaunchScreen.storyboard */; };
 		63A0520D1D500A3100856A8A /* VRSwiftAlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A0520C1D500A3100856A8A /* VRSwiftAlgorithmsTests.swift */; };
 		63A052181D500A3100856A8A /* VRSwiftAlgorithmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A052171D500A3100856A8A /* VRSwiftAlgorithmsUITests.swift */; };
+		63A052271D500A5A00856A8A /* VRAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A052261D500A5A00856A8A /* VRAlgorithms.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		63A052131D500A3100856A8A /* VRSwiftAlgorithmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRSwiftAlgorithmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A052171D500A3100856A8A /* VRSwiftAlgorithmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRSwiftAlgorithmsUITests.swift; sourceTree = "<group>"; };
 		63A052191D500A3100856A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A052261D500A5A00856A8A /* VRAlgorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRAlgorithms.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,10 @@
 		63A051F61D500A3100856A8A /* VRSwiftAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
-				63A051F71D500A3100856A8A /* AppDelegate.swift */,
+				63A052251D500A3A00856A8A /* Supporting Files */,
 				63A051F91D500A3100856A8A /* ViewController.swift */,
 				63A051FB1D500A3100856A8A /* Main.storyboard */,
-				63A051FE1D500A3100856A8A /* Assets.xcassets */,
-				63A052001D500A3100856A8A /* LaunchScreen.storyboard */,
-				63A052031D500A3100856A8A /* Info.plist */,
+				63A052261D500A5A00856A8A /* VRAlgorithms.swift */,
 			);
 			path = VRSwiftAlgorithms;
 			sourceTree = "<group>";
@@ -123,6 +123,17 @@
 				63A052191D500A3100856A8A /* Info.plist */,
 			);
 			path = VRSwiftAlgorithmsUITests;
+			sourceTree = "<group>";
+		};
+		63A052251D500A3A00856A8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63A051F71D500A3100856A8A /* AppDelegate.swift */,
+				63A051FE1D500A3100856A8A /* Assets.xcassets */,
+				63A052001D500A3100856A8A /* LaunchScreen.storyboard */,
+				63A052031D500A3100856A8A /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63A051FA1D500A3100856A8A /* ViewController.swift in Sources */,
+				63A052271D500A5A00856A8A /* VRAlgorithms.swift in Sources */,
 				63A051F81D500A3100856A8A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,10 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let algorithmBrain = VRAlgorithms()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        for string in algorithmBrain.myStrings {
+            print(algorithmBrain.stringToURL(string))
+        }
     }
 
     override func didReceiveMemoryWarning() {
