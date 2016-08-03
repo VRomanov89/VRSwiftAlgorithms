@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		639ACA8E1D51010500B475AE /* LLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639ACA8D1D51010500B475AE /* LLNode.swift */; };
+		639ACA901D51036400B475AE /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639ACA8F1D51036400B475AE /* LinkedList.swift */; };
 		63A051F81D500A3100856A8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A051F71D500A3100856A8A /* AppDelegate.swift */; };
 		63A051FA1D500A3100856A8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A051F91D500A3100856A8A /* ViewController.swift */; };
 		63A051FD1D500A3100856A8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A051FB1D500A3100856A8A /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		639ACA8D1D51010500B475AE /* LLNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLNode.swift; sourceTree = "<group>"; };
+		639ACA8F1D51036400B475AE /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		63A051F41D500A3100856A8A /* VRSwiftAlgorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRSwiftAlgorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A051F71D500A3100856A8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63A051F91D500A3100856A8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		639ACA8C1D5100EF00B475AE /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				639ACA8D1D51010500B475AE /* LLNode.swift */,
+				639ACA8F1D51036400B475AE /* LinkedList.swift */,
+			);
+			name = DataStructures;
+			sourceTree = "<group>";
+		};
 		63A051EB1D500A3100856A8A = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +112,7 @@
 		63A051F61D500A3100856A8A /* VRSwiftAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
+				639ACA8C1D5100EF00B475AE /* DataStructures */,
 				63A052251D500A3A00856A8A /* Supporting Files */,
 				63A051F91D500A3100856A8A /* ViewController.swift */,
 				63A051FB1D500A3100856A8A /* Main.storyboard */,
@@ -268,6 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				63A051FA1D500A3100856A8A /* ViewController.swift in Sources */,
+				639ACA8E1D51010500B475AE /* LLNode.swift in Sources */,
+				639ACA901D51036400B475AE /* LinkedList.swift in Sources */,
 				63A052271D500A5A00856A8A /* VRAlgorithms.swift in Sources */,
 				63A051F81D500A3100856A8A /* AppDelegate.swift in Sources */,
 			);
@@ -496,6 +512,7 @@
 				63A0521E1D500A3100856A8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A0521F1D500A3100856A8A /* Build configuration list for PBXNativeTarget "VRSwiftAlgorithmsTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +521,7 @@
 				63A052211D500A3100856A8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A052221D500A3100856A8A /* Build configuration list for PBXNativeTarget "VRSwiftAlgorithmsUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +530,7 @@
 				63A052241D500A3100856A8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
